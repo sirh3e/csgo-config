@@ -23,10 +23,6 @@ if exist cfg\autoexec.cfg (
 del cfg\autoexec.cfg
 )
 
-xcopy /e /v /Y %DIR%\simpleradar resource\overviews
-
-xcopy /e /v /Y %DIR%\blank-panorama panorama\videos89
-
 mklink cfg\autoexec.cfg %DIR%\01-autoexec.cfg
 
 if not exist custom (
