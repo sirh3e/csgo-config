@@ -27,3 +27,5 @@ echo[
 echo "Please set up your launch options:"
 echo "-w 1280 -h 960 -refresh 240 -r_emulate_g +r_dynamic 0 -forcenovsync -high -nojoy +fps_max 0 +fps_max 0 -nojoy -high -fullscreen +mat_disable_fancy_blending 1 +cl_forcepreload 1 -limitvsconst -forcenovsync +r_dynamic 0 -console -threads 16"
 echo[
+
+junction 'D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\custom' 'D:\Programming\scm\git\github\users\sirh3e\repositories\csgo-config'
