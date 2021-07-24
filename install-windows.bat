@@ -1,18 +1,10 @@
 @echo off
 
 set DIR=%cd%
-
-cd "C:\Windows"
 set THREADS=%NUMBER_OF_PROCESSORS%
 
-if exist "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo" (
-cd "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo"
-)
-
-if exist "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo" (
-cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo"
-) else (
-echo "Cannot find CS:GO installation!"
+if exist "D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo" (
+cd "D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo"
 )
 
 if exist cfg\custom (
@@ -33,5 +25,5 @@ echo[
 echo "Installation complete!"
 echo[
 echo "Please set up your launch options:"
-echo "	-novid -nojoy -w <width> -h <height> refresh <rate> -threads %THREADS% -high -tickrate 128"
+echo "-w 1280 -h 960 -refresh 240 -r_emulate_g +r_dynamic 0 -forcenovsync -high -nojoy +fps_max 0 +fps_max 0 -nojoy -high -fullscreen +mat_disable_fancy_blending 1 +cl_forcepreload 1 -limitvsconst -forcenovsync +r_dynamic 0 -console -threads 16"
 echo[
