@@ -4,12 +4,12 @@ set DIR=%cd%
 
 cd "C:\Windows"
 
-if exist "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\game" (
-cd "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\game"
+if exist "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo" (
+cd "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo"
 )
 
-if exist "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\game" (
-cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\game"
+if exist "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo" (
+cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo"
 ) else (
 echo "Cannot find CS:GO installation!"
 )
