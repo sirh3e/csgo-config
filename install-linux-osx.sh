@@ -7,8 +7,6 @@ NC='\033[0m' # No Color
 echo $PLATFORM
 if [ "$PLATFORM" == 'Linux' ]; then
     cd "${HOME}/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/game/csgo"
-elif [ "$PLATFORM" == 'Darwin' ] || [ "$PLATFORM" == 'FreeBSD' ]; then
-    cd "${HOME}/Library/Application Support/Steam/SteamApps/common/Counter-Strike Global Offensive/game/csgo"
 else
     echo "The script is not compatible with your OS."
 	exit 1
