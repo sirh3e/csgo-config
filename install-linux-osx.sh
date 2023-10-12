@@ -30,6 +30,5 @@ echo -e "\t-fullscreen -nojoy -vulkan -sdlaudiodriver pipewire"
 echo
 echo -e "${GREEN}-fullscreen${NC} – Forces the engine to start in fullscreen mode."
 echo -e "${GREEN}-nojoy${NC} – Removes joystick support, more ram free"
-echo -e "${GREEN}-novid${NC} – Remove the Valve intro that normally plays at the beginning. A must-have launch option in my opinion."
 echo -e "${GREEN}-vulkan${NC} – Forces Vulkan as the default rendering option."
 echo -e "${GREEN}-sdlaudiodriver pipewire${NC} – Set the audio API SDL Audio to pipewire."

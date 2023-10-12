@@ -11,7 +11,7 @@ cd "C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\game
 if exist "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo" (
 cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo"
 ) else (
-echo "Cannot find CS:GO installation!"
+echo "Cannot find CS:2 installation!"
 )
 
 if exist cfg\custom (
@@ -36,5 +36,5 @@ echo[
 echo "Installation complete!"
 echo[
 echo "Please set up your launch options:"
-echo "	-fullscreen -nojoy -novid -vulkan"
+echo "	-fullscreen -nojoy -vulkan"
 echo[
